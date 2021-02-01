@@ -1,0 +1,20 @@
+// Import Bootstrap and its default variable
+@import "./vars";
+@import "~bootstrap/scss/bootstrap.scss";
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.ovo {
+    font-family: "Ovo", serif;
+}
+
+h1,
+h2,
+h3 {
+    &:first-line {
+        line-height: 1;
+    }
+}
