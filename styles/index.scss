@@ -1,4 +1,8 @@
-//@import './bootstrap/theme';
-@import './scss/reset';
-@import './scss/normalize';
-@import './scss/global';
+@import "./bootstrap/theme";
+// @import "./scss/reset";
+// @import "./scss/normalize";
+@import "~react-image-lightbox/style.css";
+@import "./scss/global";
+@import "./scss/expandable-image";
+@import "./scss/pages/home";
+@import "./scss/pages/portfolio";

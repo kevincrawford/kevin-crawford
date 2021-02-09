@@ -9,7 +9,7 @@ const HomePage = () => {
       </Head>
 
       <main>
-        <h1>Kevin Crawford</h1>
+        <img className='kevin' src='/kevin-crawford.svg' alt='Kevin Crawford' />
       </main>
     </>
   )

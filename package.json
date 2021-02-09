@@ -13,11 +13,10 @@
     "mongoose": "^5.11.14",
     "next": "10.0.6",
     "nodemailer": "^6.4.17",
-    "normalize.css": "^8.0.1",
     "react": "17.0.1",
-    "react-bootstrap": "^1.4.3",
     "react-dom": "17.0.1",
     "react-google-recaptcha": "^2.1.0",
+    "react-image-lightbox": "^5.1.1",
     "sass": "^1.32.5",
     "validator": "^13.5.2"
   }

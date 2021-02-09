@@ -1,9 +1,28 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap);
-
-html, body {
+html,
+body {
     height: 100%;
-    font-family: Roboto, Arial, sans-serif;
     #__next {
-       min-height: 100%;
+        min-height: 100%;
     }
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.ovo {
+    font-family: "Ovo", serif;
+}
+
+h1,
+h2,
+h3 {
+    &:first-line {
+        line-height: 1;
+    }
+}
+
+.max-600 {
+    max-width: 600px;
 }
