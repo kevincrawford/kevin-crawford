@@ -5,6 +5,9 @@ body {
         min-height: 100%;
     }
 }
+body {
+    padding-top: 56px;
+}
 
 .btn:focus {
     outline: none !important;
@@ -25,4 +28,59 @@ h3 {
 
 .max-600 {
     max-width: 600px;
+}
+
+.bg-dark {
+    background-color: #253836 !important;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+    width: 180px;
+    height: 26.25px;
+    background: transparent url(./img/kevin-crawford.svg) no-repeat
+        center center;
+    background-size: 100% 100%;
+}
+
+.full-height {
+    min-height: calc(100vh - 112px);
+}
+
+.home {
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        padding: 1.5rem 0;
+        margin: 0;
+    }
+}
+
+.footer {
+    background: $gray-300;
+}
+
+.resume {
+    section {
+        border-top: 1px solid #ccc;
+        padding: 0.25rem 0 1rem 0;
+    }
+    h6 {
+        font-size: 0.92rem;
+        padding: 0;
+        margin: 0;
+    }
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+    }
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 0 0 1rem 0;
+        margin: 0;
+    }
 }

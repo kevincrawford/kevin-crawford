@@ -1,6 +1,56 @@
 .banner-wheels {
     color: #fff;
+    background: url(../img/banner-wheels-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-gridview {
+    color: #fff;
     background: url(../img/banner-wheels.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+
+.banner-ais {
+    color: #fff;
+    background: url(../img/banner-ais.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-principles {
+    color: #fff;
+    background: url(../img/banner-principles.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-snap {
+    color: #fff;
+    background: url(../img/banner-snap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.covers {
+    h4 {
+        padding: 0.5rem 0 0 0;
+    }
+}
+
+.cover-item {
+    &:hover {
+        img {
+            border: 1px solid #057f7c;
+        }
+        p {
+            font-weight: 700;
+        }
+    }
 }

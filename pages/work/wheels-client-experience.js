@@ -1,4 +1,4 @@
-import ExpandableImage from '../components/ExpandableImage'
+import ExpandableImage from '../../components/ExpandableImage'
 
 const wheelsClientExperience = () => {
   return (
@@ -6,7 +6,7 @@ const wheelsClientExperience = () => {
       <section className='banner-wheels'>
         <div className='container max-600 py-5'>
           <h1>Wheels Client Experience Research Project</h1>
-          <h5 className='ovo mb-4'>Understanding the daily life of our customers</h5>
+          <h5 className='ovo mb-4'>"Understanding the daily life of our customers"</h5>
           <div>
             <strong>Company: </strong>Wheels Inc.
           </div>
@@ -42,7 +42,7 @@ const wheelsClientExperience = () => {
           <li>85+ hours of videotape research footage</li>
           <li>Usability testing of core features</li>
         </ul>
-        <ExpandableImage src='/img/research.jpg' alt='Research' cls='img-fluid expandable' />
+        <ExpandableImage src='/img/research.jpg' alt='Research' cls='img-fluid expandable mb-3' />
         <hr />
         <h5>UX Analysis</h5>
         <ul>
@@ -51,7 +51,7 @@ const wheelsClientExperience = () => {
           <li>User typology mapping</li>
           <li>Generate persona definitions</li>
         </ul>
-        <ExpandableImage src='/img/task-notes.png' alt='Analysis' cls='img-fluid expandable' />
+        <ExpandableImage src='/img/task-notes.png' alt='Analysis' cls='img-fluid expandable mb-3' />
         <hr />
         <h5>UX Findings</h5>
         <ul>
@@ -61,40 +61,40 @@ const wheelsClientExperience = () => {
           <li>2 unused or underutilized features</li>
           <li>9 areas of opportunities for innovation</li>
         </ul>
-        <ExpandableImage src='/img/persona.jpg' alt='Persona' cls='img-fluid expandable' />
-        <ExpandableImage src='/img/analysis.jpg' alt='Analysis' cls='img-fluid expandable' />
+        <ExpandableImage src='/img/persona.jpg' alt='Persona' cls='img-fluid expandable mb-3' />
+        <ExpandableImage src='/img/analysis.jpg' alt='Analysis' cls='img-fluid expandable mb-3' />
         <div className='row no-gutters'>
           <div className='col-sm-12 col-md-6'>
-            <ExpandableImage src='/img/task-map-key.jpg' alt='Task Map' cls='img-fluid expandable' />
+            <ExpandableImage src='/img/task-map-key.jpg' alt='Task Map' cls='img-fluid expandable mb-3' />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <ExpandableImage src='/img/task-map-1.jpg' alt='Task Map' cls='img-fluid expandable' />
+            <ExpandableImage src='/img/task-map-1.jpg' alt='Task Map' cls='img-fluid expandable mb-3' />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <ExpandableImage src='/img/task-map-2.jpg' alt='Task Map' cls='img-fluid expandable' />
+            <ExpandableImage src='/img/task-map-2.jpg' alt='Task Map' cls='img-fluid expandable mb-3' />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <ExpandableImage src='/img/task-map-3.jpg' alt='Task Map' cls='img-fluid expandable' />
+            <ExpandableImage src='/img/task-map-3.jpg' alt='Task Map' cls='img-fluid expandable mb-3' />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <ExpandableImage src='/img/task-map-4.jpg' alt='Task Map' cls='img-fluid expandable' />
+            <ExpandableImage src='/img/task-map-4.jpg' alt='Task Map' cls='img-fluid expandable mb-3' />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <ExpandableImage src='/img/task-map-5.jpg' alt='Task Map' cls='img-fluid expandable' />
+            <ExpandableImage src='/img/task-map-5.jpg' alt='Task Map' cls='img-fluid expandable mb-3' />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <ExpandableImage src='/img/task-map-6.jpg' alt='Task Map' cls='img-fluid expandable' />
+            <ExpandableImage src='/img/task-map-6.jpg' alt='Task Map' cls='img-fluid expandable mb-3' />
           </div>
           <div className='col-sm-12 col-md-6'>
-            <ExpandableImage src='/img/task-map-7.jpg' alt='Task Map' cls='img-fluid expandable' />
+            <ExpandableImage src='/img/task-map-7.jpg' alt='Task Map' cls='img-fluid expandable mb-3' />
           </div>
         </div>
         <hr />
-        <h5>Outcomes</h5>
+        <h5>Results</h5>
         <ul>
-          <li>The discovery of 4 key UX bottlenecks lead to feature redesigns with UX improvements up to 900%</li>
+          <li>The discovery of 4 key UX bottlenecks lead to feature redesigns with UX improvements up to 500%</li>
           <li>Successfully sunsetted 2 underutilized features freeing up valuable support and development resources</li>
-          <li>Customer insights lead to the designs for 2 new industry award winning products</li>
+          <li>Customer insights lead to the designs for 2 industry award winning products</li>
         </ul>
       </section>
     </>
